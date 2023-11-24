@@ -1,0 +1,100 @@
+/* TakeQuiz.css */
+.quiz-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 80px;
+}
+
+.ebook-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.ebook-table th,
+.ebook-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.ebook-table th {
+  background-color: #f0f0f0;
+}
+
+.ebook-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.ebook-table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.ebook-section {
+  margin-top: 15px;
+  margin-left: 161px;
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  margin-right: 20px; /* Add margin to separate ebook and quiz sections */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.quiz-box {
+  margin-top: 20px;
+  margin-left: 161px;
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.quiz-box h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+
+.quiz-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quiz-box li {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.quiz-box li.correct {
+  background-color: #a7eb9b; /* Green for correct answers */
+}
+
+.quiz-box li.wrong {
+  background-color: #f48282; /* Red for wrong answers */
+}
+
+.next-button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+}
+
+h2{
+  text-align: center;
+}

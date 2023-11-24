@@ -1,0 +1,30 @@
+/* Sidebar.css */
+
+/* Basic styling for the sidebar */
+.sidebar {
+  width: 147px;
+  background-color: #212529;
+  height: 100%;
+  position: fixed;
+  top: 70px; /* Adjust the top value to match your navbar's height */
+  left: 0;
+  overflow-y: auto; /* Allow vertical scrolling when content overflows */
+  padding-top: 20px;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar-item:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
