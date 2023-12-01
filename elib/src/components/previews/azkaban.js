@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useState } from 'react';
 import "./preview.css";
+import { Container, Row, Col, Card, Form, Modal, Button } from 'react-bootstrap';
 
 import harrypotter from "../../images/harrypotter.jpg";
 
 function azkabanPreview() {
+
+  // const [showModal, setShowModal] = useState(false);
+  // const [selectedEbook, setSelectedEbook] = useState(null);
+  // const [showSubscriptionModal, setShowSubscriptionModal] = useState(false);
+  // const [showRecommendModal, setShowRecommendModal] = useState(false);
+  // const [showFullDescription, setShowFullDescription] = useState(false);
+
+  // Function to open the modal
+  // const openModal = (ebook) => {
+  //   setSelectedEbook(ebook);
+  //   setShowModal(true);
+  //   setShowFullDescription(false); // Reset to show truncated description initially
+  // };
+ 
+  // Function to close the modal
+  // const closeModal = () => {
+  //   setSelectedEbook(null);
+  //   setShowModal(false);
+  // };
+
   return (
     <div className="preview-container">
       <div className="upperblock">
@@ -14,15 +35,25 @@ function azkabanPreview() {
         <div className="book-details">
           <h1>Harry Potter and the Prisoner of Azkaban</h1>
 
-          <p><strong>Author:</strong> J.K. Rowling</p>
+          <p>
+            <strong>Author:</strong> J.K. Rowling
+          </p>
 
-          <p><strong>Category:</strong>: Fantasy</p>
+          <p>
+            <strong>Category:</strong>: Fantasy
+          </p>
 
-          <p><strong>Published:</strong> 8 July 1999</p>
+          <p>
+            <strong>Published:</strong> 8 July 1999
+          </p>
 
-          <p><strong>Points:</strong> 250</p>
+          <p>
+            <strong>Points:</strong> 250
+          </p>
 
-          <p><strong>Description:</strong></p>
+          <p>
+            <strong>Description:</strong>
+          </p>
 
           <p>
             The Prisoner of Azkaban is the third installment of the best-selling
@@ -37,7 +68,24 @@ function azkabanPreview() {
             themes of forgiveness, captivity, truth, personal growth,
             adolescence, independence, and empowerment.
           </p>
-          <p><a href="empty" >Recommend to a Colleague</a></p>
+          {/* <p>
+            {showFullDescription ? (
+              selectedEbook.description
+            ) : (
+              <>
+                {selectedEbook.description.substring(0, 200)}...
+                <span
+                  style={{ color: "blue", cursor: "pointer" }}
+                  onClick={() => setShowFullDescription(true)}
+                >
+                  Read More
+                </span>
+              </>
+            )}
+          </p> */}
+          <p>
+            <a href="empty">Recommend to a Colleague</a>
+          </p>
         </div>
       </div>
 

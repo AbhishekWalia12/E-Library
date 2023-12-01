@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "The Time Traveler's Wife",
+      "author": "Audrey Niffenegger",
+      "category": "Romance",
+      "image": "time"
+    },
+    {
+      "id": 2,
+      "title": "The Lord of the Rings",
+      "author": "John Ronald Reuel Tolkien",
+      "category": "Fantasy",
+      "image": "lord"
+    },
+    {
+      "id": 3,
+      "title": "The Invisible Life of Addie LaRue",
+      "author": "V. E. Schwab",
+      "category": "Fantasy",
+      "image": "addie"
+    },
+    {
+      "id": 4,
+      "title": "Fifty Shades Of Grey",
+      "author": "E. L. James",
+      "category": "Romance",
+      "image": "fifty1"
+    },
+    {
+      "id": 5,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "image": "harrypotter"
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter and the Half-Blood Prince",
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "image": "halfBlood"
+    }
+  ]
+  

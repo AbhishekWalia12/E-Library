@@ -56,7 +56,7 @@ function TakeQuiz() {
   const tableRowsData = [
     { id: 1, name: "The Time Traveler's Wife", date: '2023-10-05', subscriptionID: 'XYZ456' },
     { id: 2, name: 'The Lord of the Rings', date: '2023-10-06', subscriptionID: 'DEF789' },
-    { id: 3, name: 'The Invisible Life of Addie LaRue', date: '2023-10-06', subscriptionID: 'DEF789' },
+    { id: 3, name: 'The Invisible Life of Addie LaRue', date: '2023-10-07', subscriptionID: 'ABC789' },
     // Add more data here
   ];
 
